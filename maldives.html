@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maldives Tourism</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:url("https://content.tui.co.uk/adamtui/2021_12/7_13/878f7fde-84ca-4804-85a5-adf700e44176/LOC_MDV_shutterstock_1938868960WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-shadow:2px 2px 5px black;
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* Navigation */
+nav{
+    background:#1a1a1a;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+/* Section */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px;
+}
+
+/* Gallery */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Footer */
+footer{
+    background:#1a1a1a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to Maldives</h1>
+<p>Tropical Paradise of the Indian Ocean</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Places</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Popular Tourist Places</h2>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1573843981267-be1999ff37cd">
+<h3>Male City</h3>
+<p>The capital of Maldives known for colorful buildings and markets.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21">
+<h3>Maafushi Island</h3>
+<p>A beautiful island popular for water sports and budget resorts.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21">
+<h3>Vaadhoo Island</h3>
+<p>Famous for the glowing "Sea of Stars" natural phenomenon.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Maldives Photo Gallery</h2>
+
+<div class="gallery">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgknLiyPuXzif3Aqmak6qjZ7qAb0y2fKQdL58QEvg3ELLF6ZOP1ymc2UXkwsRhpMtTJ__QKX0IejQF_cGGhGkFZZj7sqpVEuy2Utjv8otiDaOd9vjEpfN4ix_SWw28hYZaJq4OThEnI5X6xsM8d6PJV18E-glAmj92WPA3VmrSX2KuixOnkr00HkkrC/s16000/beach-666122_1920.jpg">
+<img src="https://entiretravel.imgix.net/getmedia/778914be-69fe-41e1-9928-746833ce741c/Cover-Image-Best-Beaches-in-Maldives.jpeg?auto=format">
+<img src="https://media.istockphoto.com/id/492629561/photo/sunset-at-maldivian-beach.jpg?s=612x612&w=0&k=20&c=bLxLNUK1K9YHpjDBN_rmpej_zgVSCNZn9HyPDg-mkXw=">
+<img src="https://gommts3.mmtcdn.com/htl-imgs/htl-imgs/201906121510155946-dc58d49b_z.jpg?&output-quality=75&downsize=520:350&crop=520:350;81,0&output-format=jpg&downsize=480:336&crop=480:336">
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Maldives Tourism Website</p>
+</footer>
+
+</body>
+</html>
