@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bali Tourism</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+}
+
+/* Hero Section */
+header{
+    background:url("https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFsaSUyMGJlYWNofGVufDB8fDB8fHww");
+    background-size:cover;
+    background-position:center;
+    height:420px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-shadow:2px 2px 6px black;
+}
+
+header h1{
+    font-size:60px;
+}
+
+header p{
+    font-size:22px;
+}
+
+/* Navigation */
+nav{
+    background:#222;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+/* Section Styling */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px;
+}
+
+.card p{
+    padding:10px;
+}
+
+/* Gallery */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to Bali</h1>
+<p>The Island of Gods</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Tourist Places</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>About Bali</h2>
+<p>
+Bali is one of the most famous tourist destinations in Indonesia. 
+It is known for its beautiful beaches, rice terraces, temples, and vibrant culture. 
+Millions of tourists visit Bali every year to enjoy its natural beauty, traditional dance, and delicious food.
+</p>
+</section>
+
+<section>
+<h2>Top Tourist Attractions in Bali</h2>
+
+<div class="container">
+
+<div class="card">
+<img src="https://api.travalot.com/attachment/e7306df0-7428-11f0-977d-fdf5f9fede29.jpg">
+<h3>Uluwatu Temple</h3>
+<p>A beautiful sea temple located on a cliff with amazing sunset views.</p>
+</div>
+
+<div class="card">
+<img src="https://cdn.sanity.io/images/nxpteyfv/goguides/1a11698253a4102fd19bff4de1636e8ab2fe9911-1600x1066.jpg">
+<h3>Tegallalang Rice Terraces</h3>
+<p>Famous green rice fields that show the traditional farming culture of Bali.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4">
+<h3>Kuta Beach</h3>
+<p>Popular beach known for surfing, nightlife, and beautiful sunsets.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Bali Photo Gallery</h2>
+
+<div class="gallery">
+<img src="https://hblimg.mmtcdn.com/content/hubble/img/desttvimg/mmt/destination/m_Bali_tv_destination_img_1_l_771_1158.jpg">
+<img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/46/45.jpg">
+<img src="https://kura2bus.com/files/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc1lCIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d14e81c5b91050c6f4af5dd0a25840cb9d0fbc0f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2wzWldKd09oUnlaWE5wZW1WZmRHOWZiR2x0YVhSYkIya0NPQVJwQWpnRU9neGpiMjUyWlhKME93WT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--4759869aaa1270d3cd556742428b9bef8acb6049/IMG_2504.webp">
+<img src="https://media.istockphoto.com/id/2227884781/photo/pura-batu-bolong-temple-on-bali.jpg?s=612x612&w=0&k=20&c=HYXDAfHa7DyK9Eh_zA7LFuCbpnsieaVbX0qBsNm7-5M=">
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Bali Tourism Website</p>
+</footer>
+
+</body>
+</html>
