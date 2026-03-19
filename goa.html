@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goa Tourism</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-shadow:2px 2px 5px black;
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* Navigation */
+nav{
+    background:#222;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+/* Section */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+/* Cards */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px;
+}
+
+/* Gallery */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome to Goa</h1>
+<p>India's Beach Paradise</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Places</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+<h2>Popular Tourist Places</h2>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587922546307-776227941871">
+<h3>Baga Beach</h3>
+<p>One of the most famous beaches known for nightlife and water sports.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1560179406-1c6c60e0dc76">
+<h3>Calangute Beach</h3>
+<p>The largest beach in Goa and a popular tourist destination.</p>
+</div>
+
+<div class="card">
+<img src="https://img.avianexperiences.com/attractions/4401d94d-6be7-465f-9c45-3015eb569ca5">
+<h3>Dudhsagar Waterfalls</h3>
+<p>A spectacular four-tiered waterfall located inside a national park.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Goa Photo Gallery</h2>
+
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98">
+<img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Goa Tourism Website</p>
+</footer>
+
+</body>
+</html>
